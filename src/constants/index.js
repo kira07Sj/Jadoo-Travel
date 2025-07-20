@@ -102,3 +102,26 @@ export const Bookings = [
     
 
 ]
+
+export const Logo = [
+    {
+        id:'1',
+        imgUrl:'./Axon.svg'
+    },
+    {
+        id:'2',
+        imgUrl:'./Jetstar.svg'
+    },
+    {
+        id:'3',
+        imgUrl:'./Expedia.svg'
+    },
+    {
+        id:'4',
+        imgUrl:'./Qantas.svg'
+    },
+    {
+        id:'5',
+        imgUrl:'./Alitalia.svg'
+    }
+]
