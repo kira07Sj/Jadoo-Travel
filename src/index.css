@@ -1,1 +1,5 @@
 @import "tailwindcss";
+
+.text_secondary{
+  color: #212832;
+}
