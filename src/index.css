@@ -19,3 +19,9 @@ color: #5E6282;
 .bg_blur-effect{
   background-color: #D5AEE4;
 }
+
+.card:hover .hoverEffect
+{
+  transform: translate(-10px, 10px);
+  opacity: 1;
+}
