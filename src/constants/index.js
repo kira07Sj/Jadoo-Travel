@@ -125,3 +125,21 @@ export const Logo = [
         imgUrl:'./Alitalia.svg'
     }
 ]
+
+export const FooterLinks = [
+    {
+        id:'1',
+        title:'Company',
+        links:['About','Careers','Mobile']
+    },
+    {
+        id:'2',
+        title:'Contact',
+        links:['Help/FAQ','Press','Affilates']
+    },
+    {
+        id:'3',
+        title:'More',
+        links:['Airlinefees','Airline','Low fare tips']
+    }    
+]
