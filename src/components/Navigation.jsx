@@ -11,7 +11,7 @@ const Navigation = () => {
         <img src="./logo.png" alt="jadoo logo" className='w-[100px] md:w-[115px] '/>
         <div className={`hidden lg:flex items-center justify-center  text_secondary font-sans font-medium `}>
             {NavLinks.map((items)=>(
-                <a key={items.id} className={` mx-[2rem] cursor-pointer ${items.id == 6 ? 'border-[1px] px-5 py-2 rounded-[5px] ': ''}`}>{items.title}</a>
+                <a key={items.id} href={items.title} className={` mx-[2rem] cursor-pointer ${items.id == 6 ? 'border-[1px] px-5 py-2 rounded-[5px] ': ''}`}>{items.title}</a>
             ))}
 
             <select name="EN" id="" className='outline-0 mx-[2rem]'>
