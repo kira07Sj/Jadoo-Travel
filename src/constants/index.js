@@ -82,3 +82,23 @@ export const TopSellingCards = [
     },
     
 ]
+
+export const Bookings = [
+    {
+        id:'1',
+        title:'Choose Destination',
+        imgUrl:'./booking1.svg'
+    },
+    {
+        id:'2',
+        title:'Make Payment',
+        imgUrl:'./booking2.svg'
+    },
+    {
+        id:'3',
+        title:'Reach Airport on Selected Date',
+        imgUrl:'./booking3.svg'
+    },
+    
+
+]
