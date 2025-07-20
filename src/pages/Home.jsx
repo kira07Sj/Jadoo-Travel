@@ -4,6 +4,7 @@ import Hero from '../components/Hero'
 import Category from '../components/Category'
 import TopSelling from '../components/TopSelling'
 import BookAtrip from '../components/BookAtrip'
+import Testimonials from '../components/Testimonials'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
         <Category/>
         <TopSelling/>
         <BookAtrip/>
+        <Testimonials/>
     </div>
   )
 }
