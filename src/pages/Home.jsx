@@ -6,6 +6,8 @@ import TopSelling from '../components/TopSelling'
 import BookAtrip from '../components/BookAtrip'
 import Testimonials from '../components/Testimonials'
 import Logos from '../components/Logos'
+import Contact from '../components/Contact'
+import Footer from '../components/Footer'
 
 const Home = () => {
   return (
@@ -17,6 +19,8 @@ const Home = () => {
         <BookAtrip/>
         <Testimonials/>
         <Logos/>
+        <Contact/>
+        <Footer/>
     </div>
   )
 }
