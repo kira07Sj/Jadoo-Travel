@@ -1,5 +1,21 @@
 @import "tailwindcss";
+*{
+  transition: .5s;
+}
 
+.text_primary{
+  color: #181E4B;
+}
 .text_secondary{
   color: #212832;
+}
+.text_third{
+  color: #DF6951;
+}
+.text_fourth{
+color: #5E6282;
+}
+
+.bg_blur-effect{
+  background-color: #D5AEE4;
 }
