@@ -57,3 +57,28 @@ export const CategoryCards = [
     },
     
 ]
+
+export const TopSellingCards = [
+    {
+        id:'1',
+        title:'Rome, Italty',
+        price:'$5,42k',
+        time:'10 Days Trip',
+        imgUrl:'./Rome.svg'
+    },
+    {
+        id:'2',
+        title:'London, UK',
+        price:'$4,2',
+        time:'12 Days Trip',
+        imgUrl:'./London.svg'
+    },
+    {
+        id:'3',
+        title:'Full Eroupe',
+        price:'$15k',
+        time:'28 Days Trip',
+        imgUrl:'./Europe.svg'
+    },
+    
+]
